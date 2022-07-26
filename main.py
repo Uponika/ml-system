@@ -29,7 +29,7 @@ def main():
         print(res)
 
     print("End of operation")
-    print("End of test 3")
+    saveme("End of test 3")
 
 
 if __name__ == '__main__':
