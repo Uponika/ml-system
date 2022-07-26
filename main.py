@@ -1,6 +1,8 @@
 # Press the green button in the gutter to run the script.
 import Calculator
-if __name__ == '__main__':
+
+
+def main():
     print("Give two values")
     x = int(input())
     y = int(input())
@@ -11,7 +13,7 @@ if __name__ == '__main__':
     print("4. Division")
     operation = int(input())
 
-    if (operation > 4)and (operation < 1):
+    if (operation > 4) and (operation < 1):
         print("Invalid choice of operation")
     elif operation == 1:
         res = Calculator.addition(x, y)
@@ -26,7 +28,8 @@ if __name__ == '__main__':
         res = Calculator.divide(x, y)
         print(res)
 
+    print("End of operation")
 
 
-
-
+if __name__ == '__main__':
+    main()
