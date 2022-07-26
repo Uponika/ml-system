@@ -1,16 +1,32 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
 # Press the green button in the gutter to run the script.
+import Calculator
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    print("Give two values")
+    x = int(input())
+    y = int(input())
+    print("Set operations like:")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
+    operation = int(input())
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    if (operation > 4)and (operation < 1):
+        print("Invalid choice of operation")
+    elif operation == 1:
+        res = Calculator.addition(x, y)
+        print(res)
+    elif operation == 2:
+        res = Calculator.subtraction(x, y)
+        print(res)
+    elif operation == 3:
+        res = Calculator.multiply(x, y)
+        print(res)
+    else:
+        res = Calculator.divide(x, y)
+        print(res)
+
+
+
+
+
