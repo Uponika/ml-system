@@ -1,6 +1,9 @@
 # Press the green button in the gutter to run the script.
 import Calculator
 
+def do_something(tat, bayebaye):
+    pass
+
 
 def main():
     print("Give two values")
