@@ -25,6 +25,7 @@ if __name__ == '__main__':
     else:
         res = Calculator.divide(x, y)
         print(res)
+    print("Writting from github UI")
 
 
 
