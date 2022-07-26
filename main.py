@@ -1,7 +1,7 @@
 # Press the green button in the gutter to run the script.
 import Calculator
 
-def do_something(tat, bayebaye):
+def do_something(tat, bayebaye, test_sumit):
     pass
 
 
